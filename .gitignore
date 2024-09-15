@@ -1,0 +1,46 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# Ignore temporary, build, and system files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore auto-generated VS/MonoDevelop files
+[vV]isual[Ss]tudio/
+.experiment/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.unityproj.meta
+*.sln.meta
+
+# Ignore Unity-generated files
+ExportedObj/
+*.apk
+*.unitypackage
+
+# TextMesh Pro Generated Files
+[Tt]extMesh Pro/
+
+# Ignore additional build artifacts
+*.stackdump
+sysinfo.txt
+
+# If you have packages in your project, ignore them
+[Pp]ackages/com.unity.package-manager-ui
